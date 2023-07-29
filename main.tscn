@@ -1,0 +1,133 @@
+[gd_scene load_steps=4 format=3 uid="uid://b0bvauv2fopmg"]
+
+[ext_resource type="PackedScene" uid="uid://bq2hy37yfpicb" path="res://boid.tscn" id="1_1u8nh"]
+[ext_resource type="Script" path="res://AllBoids.gd" id="1_f0scb"]
+[ext_resource type="Texture2D" uid="uid://byhqokgj3atjr" path="res://icon.svg" id="2_62fay"]
+
+[node name="main" type="Node2D"]
+
+[node name="AllBoids" type="Node" parent="."]
+script = ExtResource("1_f0scb")
+
+[node name="boid20" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(338, 762)
+
+[node name="boid21" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(252, 625)
+
+[node name="boid22" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(469, 925)
+
+[node name="boid23" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(679, 963)
+
+[node name="boid24" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(814, 805)
+
+[node name="boid25" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(1160, 972)
+
+[node name="boid26" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(895, 991)
+
+[node name="boid27" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(1045, 775)
+
+[node name="boid28" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(662, 604)
+
+[node name="boid29" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(409, 569)
+
+[node name="boid30" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(1108, 609)
+
+[node name="boid31" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(1156, 815)
+
+[node name="boid32" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(833, 714)
+
+[node name="boid33" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(318, 957)
+
+[node name="boid34" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(654, 877)
+
+[node name="boid35" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(498, 695)
+
+[node name="boid36" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(921, 597)
+
+[node name="boid37" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(372, 994)
+
+[node name="boid38" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(272, 882)
+
+[node name="boid" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(202, 321)
+
+[node name="boid8" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(116, 184)
+
+[node name="boid9" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(333, 484)
+
+[node name="boid10" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(543, 522)
+
+[node name="boid11" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(678, 364)
+
+[node name="boid12" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(1024, 531)
+
+[node name="boid13" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(759, 550)
+
+[node name="boid14" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(909, 334)
+
+[node name="boid15" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(526, 163)
+
+[node name="boid16" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(273, 128)
+
+[node name="boid17" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(972, 168)
+
+[node name="boid18" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(1020, 374)
+
+[node name="boid19" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(697, 273)
+
+[node name="boid2" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(182, 516)
+
+[node name="boid3" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(518, 436)
+
+[node name="boid4" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(362, 254)
+
+[node name="boid5" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(785, 156)
+
+[node name="boid6" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(236, 553)
+
+[node name="boid7" parent="AllBoids" instance=ExtResource("1_1u8nh")]
+position = Vector2(136, 441)
+
+[node name="target" type="Node2D" parent="AllBoids"]
+position = Vector2(444, 305)
+
+[node name="Icon" type="Sprite2D" parent="AllBoids/target"]
+position = Vector2(-1, 1)
+rotation = 0.00811458
+scale = Vector2(0.220576, 0.220576)
+texture = ExtResource("2_62fay")
