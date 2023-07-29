@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 
-const SPEED = 300.0
+const SPEED = 400.0
 const scrn_size_x = 1250
 const scrn_size_y = 650
 
@@ -14,7 +14,12 @@ func wrap_around_scrn(delta):
 		self.position.y = 0
 	elif self.position.y < 0:
 		self.position.y = scrn_size_y
-
+		
+func _ready():
+	var rng = RandomNumberGenerator.new()
+	#self.rotation = rng.randf_range(0, 6.283)
+	self.rotation = rng.randf_range(0, 6.283)
+	
 func _physics_process(delta):
 	wrap_around_scrn(delta)
 		
